@@ -21,7 +21,7 @@
 <body>
     <x-layout.navbar />
 
-    <x-sections.hero.hero />
+    <x-sections.hero.hero :leaderboards="$leaderboards" />
 </body>
 
 </html>

@@ -11,7 +11,7 @@ class LeaderboardItem extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct(public int $index, public string $title, public string $name, public int $score)
+    public function __construct(public int $index, public string $title, public string $name, public int $trees, public string $itemIcon)
     {
         //
     }

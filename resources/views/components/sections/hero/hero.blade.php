@@ -34,12 +34,14 @@
 
         <div class="buttons">
             <x-button title="Most Donation" classVariant="primary-outline" />
-            <x-button title="Most Donation" classVariant="gray-outline" />
+            <x-button title="Most Recent" classVariant="gray-outline" />
         </div>
 
         <div class="leaderboard">
-            <x-sections.hero.components.leaderboard-item title="Mangrove Maven" name="Mangrove Maven" score="10,000"
-                index="1" />
+            @foreach ($leaderboards as $item)
+                <x-sections.hero.components.leaderboard-item index="{{ $item['id'] }}" title="{{ $item['title'] }}"
+                    name="{{ $item['name'] }}" trees="{{ $item['trees'] }}" itemIcon="{{ $item['image'] }}" />
+            @endforeach
         </div>
     </div>
 </section>
