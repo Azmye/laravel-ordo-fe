@@ -28,6 +28,10 @@
     <x-sections.about.about />
 
     <x-sections.event.event />
+
+    <footer class="footer">
+        <h5>Nama yang Mengerjakan Test: Muhammad Azmi</h5>
+    </footer>
 </body>
 
 </html>
