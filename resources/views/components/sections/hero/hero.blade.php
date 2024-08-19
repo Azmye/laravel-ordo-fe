@@ -1,7 +1,7 @@
-@Vite('resources/views/components/sections/hero.sass')
+@Vite('resources/views/components/sections/hero/hero.sass')
 
 <section>
-    <div class="container left">
+    <div class="container left-container">
         <div class="inner-container">
             <h5 class="title">Green Haven Project - Mangrove</h5>
 
@@ -27,5 +27,19 @@
 
 
     </div>
-    <div class="container"></div>
+    <div class="container right-container">
+        <img class="bg-image" src="{{ Vite::asset('resources/images/Leaderboard-background.png') }}" alt="">
+
+        <h3 class="subtitle2">Leaderboard</h3>
+
+        <div class="buttons">
+            <x-button title="Most Donation" classVariant="primary-outline" />
+            <x-button title="Most Donation" classVariant="gray-outline" />
+        </div>
+
+        <div class="leaderboard">
+            <x-sections.hero.components.leaderboard-item title="Mangrove Maven" name="Mangrove Maven" score="10,000"
+                index="1" />
+        </div>
+    </div>
 </section>

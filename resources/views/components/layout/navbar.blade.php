@@ -10,5 +10,5 @@
         <li>Leaderboard</li>
     </ul>
 
-    <x-button title="Plant a Mangrove" classVariant="primary-outline" />
+    <x-button title="Plant a Mangrove" classVariant="primary-outline-gray" />
 </nav>

@@ -21,7 +21,7 @@
 <body>
     <x-layout.navbar />
 
-    <x-sections.hero />
+    <x-sections.hero.hero />
 </body>
 
 </html>
