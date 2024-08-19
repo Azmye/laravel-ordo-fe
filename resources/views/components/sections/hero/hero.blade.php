@@ -24,8 +24,6 @@
         </div>
 
         <img class="hero-banner" src="{{ Vite::asset('resources/images/hero-banner.png') }}" alt="">
-
-
     </div>
     <div class="container right-container">
         <img class="bg-image" src="{{ Vite::asset('resources/images/Leaderboard-background.png') }}" alt="">

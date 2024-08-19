@@ -22,6 +22,8 @@
     <x-layout.navbar />
 
     <x-sections.hero.hero :leaderboards="$leaderboards" />
+
+    <x-sections.sponsors.sponsors />
 </body>
 
 </html>
