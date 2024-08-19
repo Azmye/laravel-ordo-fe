@@ -1,6 +1,6 @@
 @Vite('resources/views/components/sections/hero/hero.sass')
 
-<section>
+<section class="hero-section">
     <div class="container left-container">
         <div class="inner-container">
             <h5 class="title">Green Haven Project - Mangrove</h5>

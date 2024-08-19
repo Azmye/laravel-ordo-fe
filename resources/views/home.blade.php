@@ -24,6 +24,10 @@
     <x-sections.hero.hero :leaderboards="$leaderboards" />
 
     <x-sections.sponsors.sponsors />
+
+    <x-sections.about.about />
+
+    <x-sections.event.event />
 </body>
 
 </html>
