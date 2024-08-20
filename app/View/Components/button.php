@@ -13,8 +13,9 @@ class button extends Component
      */
     public function __construct(
         public string $title,
-        public string $classVariant="primary",
-        ){}
+        public string $classVariant = "primary",
+        public ?string $size = null,
+    ) {}
 
     /**
      * Get the view / contents that represent the component.
