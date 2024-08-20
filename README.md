@@ -7,7 +7,7 @@ This is an Laravel project
 
   
 
-## 📚 Requirements
+## 🔧 Requirements
 - Composer
 - NodeJs
 ## 📚 Get started
