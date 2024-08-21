@@ -3,7 +3,7 @@
 
   
 
-This is an Laravel project
+This is a Laravel project
 
   
 
@@ -28,11 +28,34 @@ npm install or yarn
 
 ```
 
+```bash
+
+composer install
+
+```
+
+2. Configuration
+
+change `.env.example` to `.env`
+and then you can put your applicaton key or generate it with
+
+```bash
+
+php artisan key:generate
+
+```
+
   
 
-2. Start the app
+3. Start the app
 
   
+
+```bash
+
+yarn dev
+
+```
 
 ```bash
 
